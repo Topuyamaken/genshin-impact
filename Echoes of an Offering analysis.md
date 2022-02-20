@@ -30,7 +30,7 @@ After solving the system of equations, we finally get our stationary distributio
 
 Since $x$ is equivalent to $π_1$, we have solved the first problem:
 
-<img src="./equation1.svg">
+<img src="assets/equation1.svg">
 
 To find $y$, repeat the method above and arrive at the second element of some vector, $ψ$.
 
