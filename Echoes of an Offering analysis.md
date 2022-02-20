@@ -1,5 +1,3 @@
-<img src="https://latex.codecogs.com/gif.latex?">
-
 ## Introduction
 A leaked artifact set "Echoes of an Offering" has an interesting effect which increases damage dynamically. Its set bonus is as follows:
 
