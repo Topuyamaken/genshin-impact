@@ -1,18 +1,20 @@
+<img src="https://latex.codecogs.com/gif.latex?">
+
 ## Introduction
 A leaked artifact set "Echoes of an Offering" has an interesting effect which increases damage dynamically. Its set bonus is as follows:
 
->When *Normal Attacks* hit opponents, there is a $36\%$ chance that it will trigger Valley Rite, which will increase *Normal Attack DMG* by $60\%$ of *ATK*. This effect will be dispelled $0.05s$ after a *Normal Attack* deals *DMG*. If a *Normal Attack* fails to trigger Valley Rite, the odds of it triggering the next time will increase by $20\%$. This trigger can occur once every $0.3s$.
+>When *Normal Attacks* hit opponents, there is a 36% chance that it will trigger Valley Rite, which will increase *Normal Attack DMG* by 60% of *ATK*. This effect will be dispelled 0.05s after a *Normal Attack* deals *DMG*. If a *Normal Attack* fails to trigger Valley Rite, the odds of it triggering the next time will increase by 20%. This trigger can occur once every 0.3s.
 
 In this analysis, there's two problems we need to figure out:
 
-1. What is the average chance to trigger Valley Rite $\left(x\right)$? 
-2. How many of your hits on average is affected by the *Normal Attack DMG* increase $\left(y\right)$?
+1. What is the average chance to trigger Valley Rite <img src="https://latex.codecogs.com/gif.latex?\left(x\right)">? 
+3. How many of your hits on average is affected by the *Normal Attack DMG* increase <img src="https://latex.codecogs.com/gif.latex?\left(y\right)">?
 
 ## Markov chain analysis
 
-To find $x$, we have to construct a transition matrix $P_1$ of the trigger chance system, then find the first element of some vector, $π$, such that $πP_1=π$:
+To find <img src="https://latex.codecogs.com/gif.latex?x">, we have to construct a transition matrix <img src="https://latex.codecogs.com/gif.latex?P_1"> of the trigger chance system, then find the first element of some vector, $π$, such that $πP_1=π$:
 
-      <img src="https://latex.codecogs.com/gif.latex?P_1=\begin{bmatrix}0.36&0.64&0&0&0\\0.56&0&0.44&0&0\\0.76&0&0&0.24&0\\0.96&0&0&0&0.04\\1&0&0&0&0\end{bmatrix}">
+<img src="https://latex.codecogs.com/gif.latex?P_1=\begin{bmatrix}0.36&0.64&0&0&0\\0.56&0&0.44&0&0\\0.76&0&0&0.24&0\\0.96&0&0&0&0.04\\1&0&0&0&0\end{bmatrix}">
 
 Find some vector, <img src="https://latex.codecogs.com/gif.latex?\pi">, such that $πP_1=π$.
 
