@@ -14,31 +14,31 @@ In this analysis, there's two problems we need to figure out:
 
 To find <img src="https://latex.codecogs.com/gif.latex?x">, we have to construct a transition matrix <img src="https://latex.codecogs.com/gif.latex?P_1"> of the trigger chance system, then find the first element of some vector, <img src="https://latex.codecogs.com/gif.latex?\pi">, such that <img src="https://latex.codecogs.com/gif.latex?\pi%20P_1=\pi">:
 
-*
+<img src="assets/equation1.svg">
 
 Find some vector, <img src="https://latex.codecogs.com/gif.latex?\pi">, such that <img src="https://latex.codecogs.com/gif.latex?\pi%20P_1=\pi">.
 
-*
+<img src="assets/equation2.svg">
 
 And we get the following system of equations:
 
-*
+<img src="assets/equation3.svg">
 
 After solving the system of equations, we finally get our stationary distribution:
 
-*
+<img src="assets/equation4.svg">
 
 Since $x$ is equivalent to $π_1$, we have solved the first problem:
 
-<img src="assets/equation1.svg">
+<img src="assets/equation5.svg">
 
 To find $y$, repeat the method above and arrive at the second element of some vector, $ψ$.
 
-*
+<img src="assets/equation6.svg">
 
 We have solved the second problem:
 
-*
+<img src="assets/equation7.svg">
 
 ## Findings
 
