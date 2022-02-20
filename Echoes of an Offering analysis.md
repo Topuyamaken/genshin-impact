@@ -12,7 +12,7 @@ In this analysis, there's two problems we need to figure out:
 
 ## Markov chain analysis
 
-To find <img src="https://latex.codecogs.com/gif.latex?x">, we have to construct a transition matrix <img src="https://latex.codecogs.com/gif.latex?P_1"> of the trigger chance system, then find the first element of some vector, $π$, such that $πP_1=π$:
+To find <img src="https://latex.codecogs.com/gif.latex?x">, we have to construct a transition matrix <img src="https://latex.codecogs.com/gif.latex?P_1"> of the trigger chance system, then find the first element of some vector, <img src="https://latex.codecogs.com/gif.latex?\pi">, such that <img src="https://latex.codecogs.com/gif.latex?\pi%20P_1=\pi">:
 
 <img src="https://latex.codecogs.com/gif.latex?P_1=\begin{bmatrix}0.36&0.64&0&0&0\\0.56&0&0.44&0&0\\0.76&0&0&0.24&0\\0.96&0&0&0&0.04\\1&0&0&0&0\end{bmatrix}">
 
