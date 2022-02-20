@@ -1,7 +1,3 @@
-Created: 2022-02-19 04:48
-Type: #analysis
-Tags: [[Genshin Impact]], [[Markov chain]]
-
 ## Introduction
 A leaked artifact set "Echoes of an Offering" has an interesting effect which increases damage dynamically. Its set bonus is as follows:
 
