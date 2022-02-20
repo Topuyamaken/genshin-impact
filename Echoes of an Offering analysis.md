@@ -32,7 +32,7 @@ Since <img src="https://latex.codecogs.com/gif.latex?x"> is equivalent to <img s
 
 <img src="assets/equation5.svg">
 
-To find <img src="https://latex.codecogs.com/gif.latex?y">, repeat the method above and arrive at the second element of some vector, <img src="https://latex.codecogs.com/gif.latex?\psi">.
+To find <img src="https://latex.codecogs.com/gif.latex?y">, repeat the method above and arrive at the second element of some vector, <img src="https://latex.codecogs.com/gif.latex?\psi">, from a transition matrix constructed as such:
 
 <img src="assets/equation6.svg">
 
