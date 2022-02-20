@@ -12,9 +12,9 @@ In this analysis, there's two problems we need to figure out:
 
 To find $x$, we have to construct a transition matrix $P_1$ of the trigger chance system, then find the first element of some vector, $π$, such that $πP_1=π$:
 
-<img src="https://latex.codecogs.com/gif.latex?P_1=\begin{bmatrix}0.36&0.64&0&0&0\\0.56&0&0.44&0&0\\0.76&0&0&0.24&0\\0.96&0&0&0&0.04\\1&0&0&0&0\end{bmatrix}">
+  <img src="https://latex.codecogs.com/gif.latex?P_1=\begin{bmatrix}0.36&0.64&0&0&0\\0.56&0&0.44&0&0\\0.76&0&0&0.24&0\\0.96&0&0&0&0.04\\1&0&0&0&0\end{bmatrix}">
 
-Find some vector, $π$, such that $πP_1=π$.
+Find some vector, <img src="https://latex.codecogs.com/gif.latex?P_1=π">, such that $πP_1=π$.
 
 $\left[π_1,π_2,π_3,π_4,π_5\right]\begin{bmatrix}0.36&0.64&0&0&0\\0.56&0&0.44&0&0\\0.76&0&0&0.24&0\\0.96&0&0&0&0.04\\1&0&0&0&0\end{bmatrix}=π$
 
