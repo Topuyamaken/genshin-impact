@@ -38,7 +38,6 @@ To find $y$, repeat the method above and arrive at the second element of some ve
 
 We have solved the second problem:
 
-<img src="https://raw.githubusercontent.com/Topuyamaken/genshin-impact/main/assets/equation5.svg">
 
 ## Findings
 
